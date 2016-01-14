@@ -1,0 +1,15 @@
+.event-types input[type=checkbox] {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	pointer-events: none;
+}
+.event-types .dashicons {
+	color: #aaa;
+	font-size: 3em;
+	height: auto;
+	margin: 0 .5641em;
+	width: auto;
+}
+.event-types input[type=checkbox]:checked + .dashicons {
+	color: inherit;
+}
